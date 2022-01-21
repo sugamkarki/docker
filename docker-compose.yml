@@ -1,8 +1,6 @@
 version: "3"
 services:
   notebook:
-    container_name: jupyter-notebook
-    # image: jupyter/datascience-notebook:b418b67c225b
     build: .
     ports:
       - "8888:8888"
