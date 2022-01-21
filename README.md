@@ -1,6 +1,6 @@
 # Steps to run this image
 - Open a terminal.
-- Clone the repository with ```git clone https://github.com/sugamkarki/jupyter-notebook_with_docker.git jupyter```.
+- Clone the repository with ```git clone https://github.com/sugamkarki/jupyter-notebook_with_docker.git jupyter```
 - ```cd jupyter```
 - Run ```docker-compose up```
 - Copy the url given at the log and open it in the browser.
