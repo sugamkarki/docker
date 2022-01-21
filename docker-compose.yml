@@ -1,0 +1,15 @@
+version: "3"
+services:
+  notebook:
+    container_name: jupyter-notebook
+    image: jupyter/datascience-notebook:b418b67c225b
+    ports:
+      - "8888:8888"
+    volumes:
+      - "./notebooks:/home/jovyan/work"
+volumes:
+  notebooks:
+    driver: local
+    driver_opts:
+      type: none
+      device: /notebooks
